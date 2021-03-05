@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+
+  margin-top: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input {
+  height: 2.4rem;
+  width: 25rem;
+  border: none;
+  border-radius: 2px 0 0 2px;
+
+  background: var(--white);
+  color: var(--black);
+
+  outline: none;
+
+  padding-left: 1rem;
+}
+
+.container input:focus {
+  border: 2px solid var(--orange);
+}
+
+.container button {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  color: var(--white);
+  background: var(--orange);
+
+  border: none;
+  border-radius: 0 2px 2px 0;
+  outline: none;
+
+  transition: filter .3s;
+}
+
+.container button:hover {
+  filter: brightness(0.95);
+}
+

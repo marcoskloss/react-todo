@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: .8rem;
+}
+
+.card button {
+  height: 2.1rem;
+  width: 2.4rem;
+  border: none;
+}
+
+.done {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.undone {
+  opacity: 1;
+}
+
+.card .deleteBtn {
+  background: var(--orange);
+  margin-left: .5rem;
+  color: #f2f2f2;
+
+  transition: filter .3s;
+}
+
+.card .deleteBtn img {
+  width: 1.2rem;
+}
+
+.card .deleteBtn:hover, .card .doneBtn:hover  {
+  filter: brightness(0.95);
+}
+
+.card .doneBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(32, 217, 32);
+
+  transition: filter .3s;
+}
+
+.text {
+  /* min-height: 2rem; */
+  width: 22rem;
+
+  padding: .3rem .3rem;
+  /* margin-top: .6rem; */
+
+  line-height: 1.5;
+  text-align: start;
+  word-wrap: break-word;
+
+  color: #010101;
+  background: #f2f2f2;
+}
