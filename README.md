@@ -24,7 +24,7 @@ Tecnologias utilizadas:
 
 ## 💻 Projeto
 
-O intuito projeto consiste em uma todo list criada com React e com persistência dos dados usando o local storage. O design da interface foi inspirado nesse [video](https://www.youtube.com/watch?v=pCA4qpQDZD8). O intuito desse projeto foi testar meus conhecimentos em React.
+O projeto consiste em uma todo list criada com React e com persistência dos dados usando o local storage. O design da interface foi inspirado nesse [video](https://www.youtube.com/watch?v=pCA4qpQDZD8). O intuito desse projeto foi testar meus conhecimentos nessa biblioteca.
 
 ---
 
