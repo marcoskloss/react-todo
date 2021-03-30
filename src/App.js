@@ -10,29 +10,19 @@ import { Provider } from 'react-redux'
 import { listItemsReducer } from './reducers/listItemsReducer'
 import { visibleListItemReducer } from './reducers/visibleListItemReducer'
 
+import { loadDataFromStorage } from './utils/loadDataFromStorage'
+import { persistState } from './utils/persistState'
+
 const SAVED_ITEMS = 'savedItems'
-
-function loadDataFromStorage() {
-  const currentState = localStorage.getItem(SAVED_ITEMS)
-  if (currentState) {
-    return JSON.parse(currentState)
-  } else {
-    return []
-  }
-}
-
-function persistState(state) {
-  localStorage.setItem(SAVED_ITEMS, JSON.stringify(state))
-}
 
 const allReducers = combineReducers({
   listItems: listItemsReducer,
   visibleListItems: visibleListItemReducer
 })
 
-const store = createStore(allReducers, loadDataFromStorage())
+const store = createStore(allReducers, loadDataFromStorage(SAVED_ITEMS))
 store.subscribe(() => {
-  persistState(store.getState())
+  persistState(SAVED_ITEMS ,store.getState())
 })
 
 function App() {
