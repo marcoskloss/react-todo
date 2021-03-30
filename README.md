@@ -33,7 +33,7 @@ O projeto consiste em uma todo list criada com React e com persistência dos dad
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/marcoskloss/moveit.git
+    $ git clone https://github.com/marcoskloss/react-todo.git
 
     # Entrar no diretório
     $ cd react-todo
