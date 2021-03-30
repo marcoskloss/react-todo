@@ -1,8 +1,8 @@
 export class Item {
-  static id = 0
+  static lastId = 0
 
   constructor(text) {
-    this.id = Item.id++
+    this.id = Item.lastId++
     this.text = text
     this.done = false
   }
