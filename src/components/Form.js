@@ -7,8 +7,6 @@ import { Select } from '../components/Select'
 
 import styles from '../styles/components/Form.module.css'
 
-
-
 export function Form() {
   const [inputText, setInputText] = useState("")
 

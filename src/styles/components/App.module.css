@@ -3,6 +3,8 @@
   max-width: 1400px;
   margin: 0 auto;
   text-align: center;
+
+  padding-bottom: 1rem;
 }
 
 .container header h1 { 
