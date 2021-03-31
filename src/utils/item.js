@@ -1,8 +1,9 @@
+import { idGenerator } from './idGenerator'
+
 export class Item {
-  static lastId = 0
 
   constructor(text) {
-    this.id = Item.lastId++
+    this.id = idGenerator()
     this.text = text
     this.done = false
   }
