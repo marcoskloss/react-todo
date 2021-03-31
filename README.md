@@ -20,11 +20,12 @@
 Tecnologias utilizadas:
 
 - ReactJS
+- Redux
 - CSS modules
 
 ## 💻 Projeto
 
-O projeto consiste em uma todo list criada com React e com persistência dos dados usando o local storage. O design da interface foi inspirado nesse [video](https://www.youtube.com/watch?v=pCA4qpQDZD8). O intuito desse projeto foi testar meus conhecimentos nessa biblioteca.
+O projeto consiste em uma todo list criada com React, Redux e com persistência dos dados usando o local storage. O design da interface foi inspirado nesse [video](https://www.youtube.com/watch?v=pCA4qpQDZD8). O intuito desse projeto foi testar meus conhecimentos nessa biblioteca.
 
 ---
 
